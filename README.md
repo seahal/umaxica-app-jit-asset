@@ -1,0 +1,1 @@
+# umaxica-app-jit-asset
