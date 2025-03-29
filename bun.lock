@@ -3,15 +3,17 @@
   "workspaces": {
     "": {
       "name": "umaxica-app-jit-asset",
+      "dependencies": {
+        "hono": "^4.7.5",
+      },
       "devDependencies": {
         "@cloudflare/workers-types": "^4.20250327.0",
         "@types/bun": "latest",
         "biome": "latest",
-        "hono": "latest",
         "wrangler": "latest",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "^5.8.2",
       },
     },
   },
